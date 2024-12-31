@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "mutex_m"
 gem "github-pages", group: :jekyll_plugins
 
 gem "tzinfo-data"

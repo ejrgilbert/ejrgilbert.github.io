@@ -14,14 +14,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: evilg
-email:
+email: evgilber@andrew.cmu.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
+  This is Elizabeth Gilbert's personal website.
+  She is a Software Engineering PhD student at CMU researching Programming Languages primarily
+  interested in developer tooling focusing on the WebAssembly domain.
+github_username: ejrgilbert
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -60,11 +59,17 @@ plugins:
 author:
   name   : "Elizabeth Gilbert"
   avatar : "/assets/images/bio-photo.png"
-  bio    : "I am a PhD student at Carnegie Mellon University with research interests in developer tooling and distributed systems. I have been primarily working with WebAssembly (Wasm) as it is a common, language-independent executable format upon which many new distributed application platforms are being built. Through targeting this domain, I hope to provide tools for industry adoption backed by meaningful research."
+  bio    : "I am a Software Engineering PhD student at Carnegie Mellon University with research interests in developer tooling and distributed systems."
   links:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/ejrgilbert"
+    - label: "Email"
+      icon: "fa-solid fa-envelope"
+      url: "mailto:evgilber@andrew.cmu.edu"
+    - label: "ORCID"
+      icon: "fa-brands fa-orcid"
+      url: "https://orcid.org/0009-0005-7242-6179"
 
 footer:
   links:
@@ -91,10 +96,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
