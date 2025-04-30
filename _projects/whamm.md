@@ -14,6 +14,9 @@ tags:
 <figure style="width: 100px" class="align-right mfp-align-top">
   <img src="/assets/images/whamm!_logo.png" alt="">
 </figure>
+
+:link: [Read the paper on arXiv!](https://arxiv.org/abs/2410.04249)
+
 I may be biased, but [Whamm!](https://github.com/ejrgilbert/whamm) is really cool.
 It's a bytecode instrumentation DSL for WebAssembly inspired by the Dtrace [D language](https://docs.oracle.com/en/operating-systems/oracle-linux/dtrace-guide/dtrace-ref-TheDProgrammingLanguage.html#dt_pred_dlang).
 

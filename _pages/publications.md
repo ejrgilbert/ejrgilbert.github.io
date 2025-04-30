@@ -9,4 +9,6 @@ classes: wide
 
 ### Other ###
 
+Elizabeth Gilbert, Matthew Schneider, Zixi An, Suhas Thalanki, Wavid Bowman, Alexander Bai, Ben L. Titzer, and Heather Miller. 2025. **Debugging WebAssembly? Put some Whamm on it! https://arxiv.org/abs/2504.20192** <br/> :link: [arXiv](https://arxiv.org/abs/2504.20192) |
+
 | Nikitha Rao, Elizabeth Gilbert, Tahina Ramananandro, Nikhil Swamy, Claire Le Goues and Sarah Fakhoury. 2024. **DiffSpec: Differential Testing with LLMs using Natural Language Specifications and Code Artifacts. https://arxiv.org/abs/2410.04249** <br/> :link: [arXiv](https://arxiv.org/abs/2410.04249) |
