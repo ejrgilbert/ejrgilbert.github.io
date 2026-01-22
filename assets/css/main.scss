@@ -1,0 +1,18 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+.link-list {
+  margin: 1.5em 0;
+  line-height: 1.8;
+}
+.link-list a {
+  color: #1a73e8;
+  text-decoration: none;
+}
+.link-list a:hover {
+  text-decoration: underline;
+}
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";   
