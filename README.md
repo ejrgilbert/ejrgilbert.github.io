@@ -2,7 +2,7 @@
 
 Uses the [Minimal Mistakes template](https://mmistakes.github.io/minimal-mistakes/).
 
-# Deploy Locally #
+# To Deploy Locally #
 
 ```shell
 bundle exec jekyll serve
