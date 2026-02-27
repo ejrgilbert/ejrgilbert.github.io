@@ -39,4 +39,4 @@ Use **bytecode rewriting**, done with [Orca](/projects/orca), to support everyth
     <i class="fas fa-code"></i> <a href="https://thenewstack.io/open-source-whamm-use-webassembly-to-monitor-and-fix-running-apps/" target="_blank">Use WebAssembly To Monitor and Fix Running Apps</a><br>
     <p style="margin-left: 33px; font-size: 19px; font-style: italic;">"[Whamm is] definitely another win for the WebAssembly community, as well as for observability, debugging and the ability to update applications dynamically with Wasm."</p>
 
-</div>  
+</div>

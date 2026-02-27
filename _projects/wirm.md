@@ -19,10 +19,13 @@ These decorators are associated with some "rule" that says where the code should
 For example, new code to be injected _before_ some opcode would be done so by adding a `Before` decorator to that opcode location in the bytecode IR.
 Then, during encoding, when this decorator is seen, it will inject the new instructions _before_ the original opcode.
 
-This library also allows users to perform bytecode rewriting on Wasm components.
-Right now, this capability is limited to parsing a component and instrumenting its internal core modules.
-However, in [this PR](https://github.com/composablesys/wirm/pull/296), component-level instrumentation will be supported.
-The added capability also enables a user to leverage the `Visitor` pattern to traverse a component with built-in support
-for reference resolution.
+This library also allows users to work with Wasm components.
+Instrumentation of Wasm components is no longer limited to their internal core modules!
+Now, users can inject new component-level IR nodes, then the library does the hard work of [encoding the instrumented component](https://docs.rs/wirm/3.0.0/wirm/ir/component/struct.Component.html#method.encode) in topological order (changes any forward references introduced by the instrumentation to backward references).
+Further, `wirm` provides [a visitor API](https://docs.rs/wirm/3.0.0/wirm/ir/component/visitor/index.html) for walking components either in:
+1. [structural order](https://docs.rs/wirm/3.0.0/wirm/ir/component/visitor/fn.walk_structural.html) (follows the order of the parsed binary)
+2. or [topological order](https://docs.rs/wirm/3.0.0/wirm/ir/component/visitor/fn.walk_topological.html) (visits dependencies first).
+
+This API also provides built-in support for [reference resolution](https://docs.rs/wirm/3.0.0/wirm/ir/component/visitor/struct.VisitCtx.html#method.resolve).
 
 Contributions are welcome/encouraged/extremely helpful/all the good things.
