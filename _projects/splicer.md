@@ -24,3 +24,14 @@ integrated (derived from the graph). The result is a clear, automatable workflow
 constraints, and middleware chains in complex component systems.
 
 Contributions are welcome/encouraged/extremely helpful/all the good things.
+
+---
+
+# Published Articles
+
+<div class="link-list">
+
+    <i class="far fa-file-alt"></i> <a href="https://bytecodealliance.org/articles/how-wasm-components-enable-pluggable-middleware" target="_blank">How Wasm components enable pluggable tooling through interposition</a><br>
+    <p style="margin-left: 33px; font-size: 19px; font-style: italic;">"...the splicer framework makes [component interposition] tractable at any interface edge."</p>
+
+</div>

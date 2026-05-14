@@ -11,4 +11,6 @@ classes: wide
 
 ### Other ###
 
-| Nikitha Rao, Elizabeth Gilbert, Tahina Ramananandro, Nikhil Swamy, Claire Le Goues and Sarah Fakhoury. 2024. **DiffSpec: Differential Testing with LLMs using Natural Language Specifications and Code Artifacts. https://arxiv.org/abs/2410.04249** <br/> :link: [arXiv](https://arxiv.org/abs/2410.04249) |
+| **The Official Bytecode Alliance Blog** | Elizabeth Gilbert. 2026. **How Wasm components enable pluggable tooling through interposition.** https://bytecodealliance.org/articles/how-wasm-components-enable-pluggable-middleware <br/> :link: [blog](https://bytecodealliance.org/articles/how-wasm-components-enable-pluggable-middleware) |
+
+| Nikitha Rao, Elizabeth Gilbert, Tahina Ramananandro, Nikhil Swamy, Claire Le Goues and Sarah Fakhoury. 2024. **DiffSpec: Differential Testing with LLMs using Natural Language Specifications and Code Artifacts.** https://arxiv.org/abs/2410.04249 <br/> :link: [arXiv](https://arxiv.org/abs/2410.04249) |

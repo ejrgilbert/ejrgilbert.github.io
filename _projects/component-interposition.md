@@ -20,7 +20,7 @@ an arbitrary composition.
 The services and middlewares used in this repository to demonstrate the interposition capability do the most basic
 operation of printing to the console to not distract from the capability shown here. Next, we plan to use this technique,
 to port production-ready middleware such as OpenTelemetry observability, encryption, and security policy enforcement
-across service compositions.
+across compositions.
 
 [component-interposition]: https://github.com/ejrgilbert/component-interposition
 [`splicer`]: https://ejrgilbert.github.io/projects/splicer/
