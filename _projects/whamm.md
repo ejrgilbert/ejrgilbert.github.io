@@ -15,7 +15,7 @@ tags:
   <img src="/assets/images/whamm!_logo.png" alt="">
 </figure>
 
-:link: [Read the paper on arXiv!](https://arxiv.org/abs/2410.04249)
+:link: [Read the paper on ACM!](https://doi.org/10.1145/3763124)
 
 I may be biased, but [Whamm!](https://github.com/ejrgilbert/whamm) is really cool.
 It's a bytecode instrumentation DSL for WebAssembly inspired by the Dtrace [D language](https://docs.oracle.com/en/operating-systems/oracle-linux/dtrace-guide/dtrace-ref-TheDProgrammingLanguage.html#dt_pred_dlang).
@@ -25,13 +25,16 @@ Expressing instrumentation in Whamm! abstracts above the injection technique and
 
 You can write instrumentation once, and support wide domain of apps.
 Use **engine instrumentation capabilities** as available (currently only the [Wizard VM](https://github.com/titzer/wizard-engine)).
-Use **bytecode rewriting**, done with [Orca](/projects/orca), to support everything else.
+Use **bytecode rewriting**, done with [Wirm](/projects/wirm), to support everything else.
 
 ---
 
 # Published Articles
 
 <div class="link-list">
+
+    <i class="far fa-play-circle"></i> <a href="https://www.youtube.com/watch?v=S8HgLNeLD-k&list=PLyqga7AXMtPNV1zr2aTWEegep0FQU6Qvj&index=1" target="_blank">Composable instrumentation in the component model</a><br>
+    <p style="margin-left: 33px; font-size: 19px; font-style: italic;">"Whamm asks a surprisingly simple question: What if building a debugger, profiler, tracer, coverage tool, and security monitor wasn't a giant engineering project every single time?"</p>
 
     <i class="far fa-file-alt"></i> <a href="https://thenewstack.io/meet-whamm-the-webassembly-instrumentation-framework/" target="_blank">Meet Whamm: The WebAssembly Instrumentation Framework</a><br>
     <p style="margin-left: 33px; font-size: 19px; font-style: italic;">"[Whamm] does not replace, ameliorate or improve existing tools and processes but can actually do things that have not properly existed before."</p>
